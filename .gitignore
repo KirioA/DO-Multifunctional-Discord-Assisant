@@ -1,0 +1,9 @@
+build
+build.bat
+start.bat
+DJS14.code-workspace
+node_modules!
+package-lock.json
+json.sqlite
+node_modules
+src/config.json

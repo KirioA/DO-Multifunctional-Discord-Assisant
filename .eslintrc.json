@@ -1,0 +1,42 @@
+{
+    "extends": [
+        "airbnb",
+        "airbnb/hooks",
+        "plugin:@typescript-eslint/eslint-recommended"
+    ],
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "indent": ["error", "tab", { "SwitchCase": 1 }],
+        "no-tabs": 0,
+        "comma-dangle": ["warn", "never"],
+        "object-curly-spacing": ["warn", "always"],
+        "prefer-destructuring": ["warn"],
+        "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+        "semi": ["error", "always"],
+        "camelcase": ["warn"],
+        "dot-notation": ["warn"],
+        "no-useless-escape": 0,
+        "max-len": ["error", 160],
+        "no-unused-vars": 0,
+        "no-undef": 0,
+        "default-case": 0,
+        "global-require": 0,
+        "import/no-dynamic-require": 0,
+        "import/no-unresolved": 0,
+        "no-use-before-define": 0,
+        "import/extensions": 0,
+        "consistent-return": 0,
+        "eol-last": 0,
+        "no-console": 0,
+        "eqeqeq": 0,
+        "quotes": ["error", "single"]
+    }
+}

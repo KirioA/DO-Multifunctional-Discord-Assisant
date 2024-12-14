@@ -50,9 +50,19 @@
 3. **Настройте переменные окружения:**
    Создайте файл `.env` в корневой директории и добавьте следующие переменные:
    ```env
-   DISCORD_TOKEN=your_discord_bot_token
-   MONGODB_URI=your_mongodb_connection_string
-   PREFIX=!
+   {
+    "token": "text here",
+    "clientID": "text here",
+    "token_youtube": "text here",
+    "token_telegram": "text here",
+    "youtubeCookie": "text here",
+    "spotifyId": "text here",
+    "spotifySecret": "text here",
+    "OPEN_AI": "text here (api key)",
+    "adminTgChatId": "text here (you telegram chat id)",
+    "adminId": "text here (your discord user id)",
+    "prefix": "!"
+}
    ```
 
 4. **Запустите бота:**
